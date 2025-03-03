@@ -1,0 +1,49 @@
+h1{
+    display: flex;
+    color: #e3e3e3;
+    font-family: arial;
+    justify-content: center;
+}
+body {
+    background-color: #0b031f;
+}
+textarea{
+    background: #060623;
+    color: #dfd5ff;    
+    width: 90vw;
+    height: 95vw;
+    border-radius: 5px;
+    border: #dfd5ff;
+    border-color: #dfd5ff;
+}
+button {
+    background-color: #060623;
+    color: #dfd5ff;
+    width: 30vw;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #dfd5ff;
+}
+#botoes{
+    display:flex;
+    position: center;
+}
+@media (max-width: 768px) { 
+    h1 {
+        font-size: 20px;
+    }
+
+    textarea {
+        width: 90vw;
+        height: 40vh; /* Ajusta a altura para caber na tela */
+        font-size: 16px; /* Aumenta o tamanho do texto */
+    }
+
+    button {
+        width: 80%; /* Faz os botões ocuparem quase toda a largura */
+        font-size: 18px; 
+        padding: 12px;
+        margin: 5px auto; /* Centraliza */
+        display: block; /* Coloca os botões um abaixo do outro */
+    }
+}
