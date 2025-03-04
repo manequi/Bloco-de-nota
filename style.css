@@ -22,12 +22,17 @@ button {
     background-color: #060623;
     color: #dfd5ff;
     width: 40%;
-    border: 20px;
+    border: 5px solid #dfd5ff;
     border-radius: 5px;
     border-color: #dfd5ff;
     font-size: 5vw;
 }
 #botoes{
     display:flex;
-    position: center;
+    position: absolute;
+    left: 20%;
+}
+#bloco {
+    border-radius: 5px;
+    border: 5px solid #dfd5ff ;
 }
